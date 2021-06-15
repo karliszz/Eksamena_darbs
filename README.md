@@ -1,6 +1,6 @@
 # Eksamena_darbs
 
-##Veicamo darbu saraksts:
+##Projekta apraksts:
 	Projekts izveidots kā tests, zināšanu pārbaude par 
 	viendimensiju masīviem. 
 	
