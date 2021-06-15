@@ -52,4 +52,12 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+        
+    //4 jautajums
+    cout<<"Kas tiks izvadits ekrana ja: \nA[10];\n A[0]=10; \ncout<<A[0]<<" ";\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) 0 "<<endl; 
+    cout<<"b) nekas " <<endl;
+    cout<<"c) 1 "<<endl;
+    cout<<"d) 10 "<<endl;
+    	
 }
