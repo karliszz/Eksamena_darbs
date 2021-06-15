@@ -37,4 +37,11 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    
+    //3 jautajums
+    cout<<"Elementi masiva ir sakartoti?\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) ka velas lietotajs "<<endl; 
+    cout<<"b) ar indeksu augosa seciba " <<endl;
+    cout<<"c) ar indeksu dilstosa seciba "<<endl;
+    cout<<"d) nejausa seciba "<<endl;
 }
