@@ -1,4 +1,8 @@
+#include <ctime>
+#include <cstdlib>
 #include <iostream>
+#include <string>
+#include <fstream>
 using namespace std;
 int main (){
 	int x, pareizs = 0;
@@ -12,4 +16,12 @@ int main (){
     cout<<"d) Cetrdimensiju "<<endl;
     
 	cin>>atbilde;
+	 if(atbilde == "a" || atbilde == "A" && atbilde.length()<2)
+	 {
+	 	cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
+	 	pareizs++;
+	 }
+    else
+    cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    
 }
