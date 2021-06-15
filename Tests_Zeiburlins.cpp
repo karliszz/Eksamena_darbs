@@ -10,4 +10,6 @@ int main (){
     cout<<"b) Divdimensiju "<<endl;
     cout<<"c) Trisdimensiju "<<endl;
     cout<<"d) Cetrdimensiju "<<endl;
+    
+	cin>>atbilde;
 }
