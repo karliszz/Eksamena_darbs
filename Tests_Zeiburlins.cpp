@@ -128,4 +128,12 @@ int main (){
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
         
+    //9 jautajums
+    cout<<"Kas tiks izvadits ekrana ja: \nint A [10];\nfor(i=0; i<10; i++){\nA[i]=3+i;\ncout<<A[i]<<" ";\n}\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) 12 11 10 9 8 7 6 5 4 3 "<<endl; 
+    cout<<"b) 3 4 5 6 7 8 9 10 11 12 " <<endl;
+    cout<<"c) 1 2 3 4 5 6 7 8 9 10 "<<endl;
+    cout<<"d) kluda, jo i netiek definets " <<endl;
+    cin>>atbilde;
+    	
 }
