@@ -83,4 +83,11 @@ int main (){
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
     	
+    //6 jautajums
+    cout<<"Kurs masivs tiek pareizi definets?\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) int diena[11]; "<<endl; 
+    cout<<"b) int 11[diena] "<<endl;
+    cout<<"c) char A[int] "<<endl;
+    cout<<"d) int diena[11] "<<endl;
+    cin>>atbilde;
 }
