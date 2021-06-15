@@ -22,7 +22,8 @@ int main (){
 		}
     	else
     	cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
-    	
+    cout<<"========================================================================================\n";
+    
     //2 jautajums
     cout<<"Ka pareizi definet masivu?\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) <datu tips> <mainigais>[<elementu skaits>] "<<endl; 
@@ -37,6 +38,7 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    cout<<"========================================================================================\n";
     
     //3 jautajums
     cout<<"Elementi masiva ir sakartoti?\nAtbildi ar a, b, c vai d burtiem."<<endl;
@@ -52,7 +54,8 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
-        
+    cout<<"========================================================================================\n";    
+	
     //4 jautajums
     cout<<"Kas tiks izvadits ekrana ja: \nA[10];\n A[0]=10; \ncout<<A[0]<<" ";\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) 0 "<<endl; 
@@ -67,6 +70,7 @@ int main (){
         }
         else           
         cout << "Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    cout<<"========================================================================================\n";
     
     //5 jautajums
     cout<<"Masiva datu tipi var but?\nAtbildi ar a, b, c vai d burtiem."<<endl;
@@ -82,7 +86,8 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
-    	
+    cout<<"========================================================================================\n";
+    
     //6 jautajums
     cout<<"Kurs masivs tiek pareizi definets?\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) int diena[11]; "<<endl; 
@@ -97,7 +102,8 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
-        
+    cout<<"========================================================================================\n";
+	    
     //7 jautajums 
     cout<<"Kas tiks izdrukats ja: \nint vecums[5] = {11, 56, 69, 77, 28}; \nvecums[2]; \ncout<<vecums[2]<<" "; \n}\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) 69 "<<endl; 
@@ -112,6 +118,7 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    cout<<"========================================================================================\n";
     
     //8 jautajums
     cout<<"Cik masivu var but viena koda?\nAtbildi ar a, b, c vai d burtiem."<<endl;
@@ -127,13 +134,14 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
-        
+     cout<<"========================================================================================\n";
+	    
     //9 jautajums
     cout<<"Kas tiks izvadits ekrana ja: \nint A [10];\nfor(i=0; i<10; i++){\nA[i]=3+i;\ncout<<A[i]<<" ";\n}\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) 12 11 10 9 8 7 6 5 4 3 "<<endl; 
-    cout<<"b) 3 4 5 6 7 8 9 10 11 12 " <<endl;
+    cout<<"b) 3 4 5 6 7 8 9 10 11 12 "<<endl;
     cout<<"c) 1 2 3 4 5 6 7 8 9 10 "<<endl;
-    cout<<"d) kluda, jo i netiek definets " <<endl;
+    cout<<"d) kluda, jo i netiek definets "<<endl;
     cin>>atbilde;
     	if(atbilde == "d" || atbilde == "D" && atbilde.length()<2)
         {
@@ -142,6 +150,7 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    cout<<"========================================================================================\n";
     
     //10 jautajums
     cout<<"Ar kadu skaitli sakas masiva indeks?\nAtbildi ar a, b, c vai d burtiem."<<endl;
