@@ -22,7 +22,7 @@ int main (){
 		}
     	else
     	cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
-    
+    	
     //2 jautajums
     cout<<"Ka pareizi definet masivu?\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) <datu tips> <mainigais>[<elementu skaits>] "<<endl; 
@@ -41,7 +41,15 @@ int main (){
     //3 jautajums
     cout<<"Elementi masiva ir sakartoti?\nAtbildi ar a, b, c vai d burtiem."<<endl;
     cout<<"a) ka velas lietotajs "<<endl; 
-    cout<<"b) ar indeksu augosa seciba " <<endl;
+    cout<<"b) ar indeksu augosa seciba "<<endl;
     cout<<"c) ar indeksu dilstosa seciba "<<endl;
     cout<<"d) nejausa seciba "<<endl;
+    cin>>atbilde;
+    	if(atbilde == "b" || atbilde == "B" && atbilde.length()<2)
+        {
+        cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
+        pareizs++;
+        }
+        else           
+        cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
 }
