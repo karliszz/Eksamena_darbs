@@ -14,14 +14,21 @@ int main (){
     cout<<"b) Divdimensiju "<<endl;
     cout<<"c) Trisdimensiju "<<endl;
     cout<<"d) Cetrdimensiju "<<endl;
-    
 	cin>>atbilde;
-	 if(atbilde == "a" || atbilde == "A" && atbilde.length()<2)
-	 {
+		if(atbilde == "a" || atbilde == "A" && atbilde.length()<2)
+		{
 	 	cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
 	 	pareizs++;
-	 }
+		}
     else
     cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
     
+    //2 jautajums
+    cout<<"Ka pareizi definet masivu?\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) <datu tips> <mainigais>[<elementu skaits>] "<<endl; 
+    cout<< "b) <mainigais>[<elementu skaits>];"<<endl;
+    cout<<"c) <datu tips> <mainigais>[<elementu skaits>]; "<<endl;
+    cout<<"d) <datu tips>[<elementu skaits>];"<<endl;
+
+
 }
