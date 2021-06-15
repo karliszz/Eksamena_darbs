@@ -59,5 +59,13 @@ int main (){
     cout<<"b) nekas " <<endl;
     cout<<"c) 1 "<<endl;
     cout<<"d) 10 "<<endl;
+    cin>>atbilde;
+    	if(atbilde == "d" || atbilde == "D" && atbilde.length()<2)
+        {
+       	cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
+        pareizs++;
+        }
+        else           
+        cout << "Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
     	
 }
