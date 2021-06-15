@@ -20,8 +20,8 @@ int main (){
 	 	cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
 	 	pareizs++;
 		}
-    else
-    cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    	else
+    	cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
     
     //2 jautajums
     cout<<"Ka pareizi definet masivu?\nAtbildi ar a, b, c vai d burtiem."<<endl;
@@ -29,6 +29,12 @@ int main (){
     cout<< "b) <mainigais>[<elementu skaits>];"<<endl;
     cout<<"c) <datu tips> <mainigais>[<elementu skaits>]; "<<endl;
     cout<<"d) <datu tips>[<elementu skaits>];"<<endl;
-
-
+	cin>>atbilde;
+        if(atbilde == "c" || atbilde == "C" && atbilde.length()<2)
+        {
+        cout<<"Tava atbilde ir pareiza!(+1)" <<endl;
+        pareizs++;
+        }
+        else           
+        cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
 }
