@@ -67,5 +67,12 @@ int main (){
         }
         else           
         cout << "Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    
+    //5 jautajums
+    cout<<"Masiva datu tipi var but?\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) tikai int "<<endl; 
+    cout<<"b) int, double "<<endl;
+    cout<<"c) tikai char "<<endl;
+    cout<<"d) int, double, char, string, bool "<<endl;
     	
 }
