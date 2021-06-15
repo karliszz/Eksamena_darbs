@@ -113,4 +113,19 @@ int main (){
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
     
+    //8 jautajums
+    cout<<"Cik masivu var but viena koda?\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) 1 "<<endl; 
+    cout<<"b) 13 "<<endl;
+    cout<<"c) tik, cik izveido lietotajs "<<endl;
+    cout<<"d) 2 "<<endl;
+    cin>>atbilde;
+    	if(atbilde == "c" || atbilde == "C" && atbilde.length()<2)
+        {
+        cout << "Tava atbilde ir pareiza!(+1)"<<endl;
+        pareizs++;
+        }
+        else           
+        cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+        
 }
