@@ -150,5 +150,11 @@ int main (){
     cout<<"c) 2 "<<endl;
     cout<<"d) 3 "<<endl;
     cin>>atbilde;
-    	
+    	if(atbilde == "a" || atbilde == "A" && atbilde.length()<2)
+        {
+        cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
+        pareizs++;
+        }
+        else           
+        cout << "Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
 }
