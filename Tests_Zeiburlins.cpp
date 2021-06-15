@@ -142,4 +142,13 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+    
+    //10 jautajums
+    cout<<"Ar kadu skaitli sakas masiva indeks?\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) 0 "<<endl; 
+    cout<<"b) 1 "<<endl;
+    cout<<"c) 2 "<<endl;
+    cout<<"d) 3 "<<endl;
+    cin>>atbilde;
+    	
 }
