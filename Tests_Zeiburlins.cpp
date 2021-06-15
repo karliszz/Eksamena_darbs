@@ -74,5 +74,13 @@ int main (){
     cout<<"b) int, double "<<endl;
     cout<<"c) tikai char "<<endl;
     cout<<"d) int, double, char, string, bool "<<endl;
+    cin>>atbilde;
+    	if(atbilde == "d" || atbilde == "D" && atbilde.length()<2)
+        {
+        cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
+        pareizs++;
+        }
+        else           
+        cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
     	
 }
