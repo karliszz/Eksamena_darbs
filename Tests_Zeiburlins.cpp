@@ -135,5 +135,11 @@ int main (){
     cout<<"c) 1 2 3 4 5 6 7 8 9 10 "<<endl;
     cout<<"d) kluda, jo i netiek definets " <<endl;
     cin>>atbilde;
-    	
+    	if(atbilde == "d" || atbilde == "D" && atbilde.length()<2)
+        {
+      	cout<<"Tava atbilde ir pareiza!(+1)"<<endl;
+        pareizs++;
+        }
+        else           
+        cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
 }
