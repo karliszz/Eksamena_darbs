@@ -97,4 +97,13 @@ int main (){
         }
         else           
         cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+        
+    //7 jautajums 
+    cout<<"Kas tiks izdrukats ja: \nint vecums[5] = {11, 56, 69, 77, 28}; \nvecums[2]; \ncout<<vecums[2]<<" "; \n}\nAtbildi ar a, b, c vai d burtiem."<<endl;
+    cout<<"a) 69 "<<endl; 
+    cout<<"b) 77"<<endl;
+    cout<<"c) 28"<<endl;
+    cout<<"d) 11"<<endl;
+    cin>>atbilde;
+    	
 }
