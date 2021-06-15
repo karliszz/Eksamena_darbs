@@ -165,5 +165,7 @@ int main (){
         pareizs++;
         }
         else           
-        cout << "Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+        cout<<"Diemzel tava atbilde ir nepareiza!(+0)"<<endl;
+        cout<<"========================================================================================\n";
+        cout <<"No 10 iespejamiem punktiem jus esat ieguvis "<<pareizs<<" punktus!"<<endl;
 }
