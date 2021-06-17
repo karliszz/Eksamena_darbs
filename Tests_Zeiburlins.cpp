@@ -226,5 +226,10 @@ if(atbilde7 == "a" || atbilde7 == "A" && atbilde7.length()<2){
 }else{
 	cout<<"Jautajums Nr.7 \nKas tiks izdrukats ja: \nint vecums[5] = {11, 56, 69, 77, 28}; \nvecums[2]; \ncout<<vecums[2]<<" "; \n}"<<endl << endl;
 }
+if(atbilde8 == "c" || atbilde8 == "C" && atbilde8.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.8 \nCik masivu var but viena koda?"<<endl << endl;
+}
 
 }
