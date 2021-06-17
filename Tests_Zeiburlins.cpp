@@ -241,4 +241,5 @@ if(atbilde10 == "a" || atbilde10 == "A" && atbilde10.length()<2){
 }else{
 	cout<<"Jautajums Nr.10 \nAr kadu skaitli sakas masiva indeks?"<<endl<<endl;
 }
+system("pause");
 }
