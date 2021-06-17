@@ -221,5 +221,10 @@ if(atbilde6 == "a" || atbilde6 == "A" && atbilde6.length()<2){
 }else{
 	cout<<"Jautajums Nr.6 \nKurs masivs tiek pareizi definets?"<<endl <<endl;
 }
+if(atbilde7 == "a" || atbilde7 == "A" && atbilde7.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.7 \nKas tiks izdrukats ja: \nint vecums[5] = {11, 56, 69, 77, 28}; \nvecums[2]; \ncout<<vecums[2]<<" "; \n}"<<endl << endl;
+}
 
 }
