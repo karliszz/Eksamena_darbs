@@ -201,4 +201,9 @@ if(atbilde2 == "c" || atbilde2 == "C" && atbilde2.length()<2){
 }else{
 	cout<<"Jautajums Nr.2 \nKa pareizi definet masivu?"<<endl << endl;
 }
+if(atbilde3 == "b" || atbilde3 == "B" && atbilde3.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.3 \nElementi masiva ir sakartoti?"<<endl << endl;
+}
 }
