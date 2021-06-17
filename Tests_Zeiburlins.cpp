@@ -194,7 +194,7 @@ int main (){
         if(atbilde == "a" || atbilde == "A" && atbilde.length()<2){
 		cout<<"";
 	}else{
-		cout<<"Jautajums Nr.1 \nJa katram masiva elementam ir tikai viens indekss, kas nodrosina pieeju tam, tad masivu sauc par?" <<endl << endl;
+		cout<<"Jautajums Nr.1 \nJa katram masiva elementam ir tikai viens indekss, kas nodrosina pieeju tam, tad masivu sauc par?"<<endl<<endl;
 	}
 if(atbilde2 == "c" || atbilde2 == "C" && atbilde2.length()<2){
 	cout<<"";
@@ -210,5 +210,10 @@ if(atbilde4 == "d" || atbilde4 == "D" && atbilde4.length()<2){
 	cout<<"";
 }else{
 	cout<<"Jautajums Nr.4 \nKas tiks izvadits ekrana ja: \nA[10];\n A[0]=10; \ncout<<A[0]<<" ";"<<endl<<endl;
+}
+if(atbilde5 == "d" || atbilde5 == "D" && atbilde5.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.5 \nMasiva datu tipi var but?"<<endl<<endl;
 }
 }
