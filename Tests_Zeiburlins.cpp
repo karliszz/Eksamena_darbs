@@ -216,4 +216,10 @@ if(atbilde5 == "d" || atbilde5 == "D" && atbilde5.length()<2){
 }else{
 	cout<<"Jautajums Nr.5 \nMasiva datu tipi var but?"<<endl<<endl;
 }
+if(atbilde6 == "a" || atbilde6 == "A" && atbilde6.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.6 \nKurs masivs tiek pareizi definets?"<<endl <<endl;
+}
+
 }
