@@ -219,22 +219,26 @@ if(atbilde5 == "d" || atbilde5 == "D" && atbilde5.length()<2){
 if(atbilde6 == "a" || atbilde6 == "A" && atbilde6.length()<2){
 	cout<<"";
 }else{
-	cout<<"Jautajums Nr.6 \nKurs masivs tiek pareizi definets?"<<endl <<endl;
+	cout<<"Jautajums Nr.6 \nKurs masivs tiek pareizi definets?"<<endl<<endl;
 }
 if(atbilde7 == "a" || atbilde7 == "A" && atbilde7.length()<2){
 	cout<<"";
 }else{
-	cout<<"Jautajums Nr.7 \nKas tiks izdrukats ja: \nint vecums[5] = {11, 56, 69, 77, 28}; \nvecums[2]; \ncout<<vecums[2]<<" "; \n}"<<endl << endl;
+	cout<<"Jautajums Nr.7 \nKas tiks izdrukats ja: \nint vecums[5] = {11, 56, 69, 77, 28}; \nvecums[2]; \ncout<<vecums[2]<<" "; \n}"<<endl<<endl;
 }
 if(atbilde8 == "c" || atbilde8 == "C" && atbilde8.length()<2){
 	cout<<"";
 }else{
-	cout<<"Jautajums Nr.8 \nCik masivu var but viena koda?"<<endl << endl;
+	cout<<"Jautajums Nr.8 \nCik masivu var but viena koda?"<<endl<<endl;
 }
 if(atbilde9 == "d" || atbilde9 == "D" && atbilde9.length()<2){
 	cout<<"";
 }else{
-	cout<<"Jautajums Nr.9 \nKas tiks izvadits ekrana ja: \nint A [10];\nfor(i=0; i<10; i++){\nA[i]=3+i;\ncout<<A[i]<<" ";\n}"<<endl << endl;
+	cout<<"Jautajums Nr.9 \nKas tiks izvadits ekrana ja: \nint A [10];\nfor(i=0; i<10; i++){\nA[i]=3+i;\ncout<<A[i]<<" ";\n}"<<endl<<endl;
 }
-
+if(atbilde10 == "a" || atbilde10 == "A" && atbilde10.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.10 \nAr kadu skaitli sakas masiva indeks?"<<endl<<endl;
+}
 }
