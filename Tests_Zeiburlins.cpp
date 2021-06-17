@@ -7,6 +7,15 @@ using namespace std;
 int main (){
 	int x, pareizs = 0;
 	string atbilde;
+	string atbilde2;
+	string atbilde3;
+	string atbilde4;
+	string atbilde5;
+	string atbilde6;
+	string atbilde7;
+	string atbilde8;
+	string atbilde9;
+	string atbilde10;
 	
 	//1 jautajums
 	cout<<"Ja katram masiva elementam ir tikai viens indekss, kas nodrosina pieeju tam, tad masivu sauc par?\nAtbildi ar a, b, c vai d burtiem."<<endl;
