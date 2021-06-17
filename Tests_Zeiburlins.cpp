@@ -231,5 +231,10 @@ if(atbilde8 == "c" || atbilde8 == "C" && atbilde8.length()<2){
 }else{
 	cout<<"Jautajums Nr.8 \nCik masivu var but viena koda?"<<endl << endl;
 }
+if(atbilde9 == "d" || atbilde9 == "D" && atbilde9.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.9 \nKas tiks izvadits ekrana ja: \nint A [10];\nfor(i=0; i<10; i++){\nA[i]=3+i;\ncout<<A[i]<<" ";\n}"<<endl << endl;
+}
 
 }
