@@ -199,11 +199,16 @@ int main (){
 if(atbilde2 == "c" || atbilde2 == "C" && atbilde2.length()<2){
 	cout<<"";
 }else{
-	cout<<"Jautajums Nr.2 \nKa pareizi definet masivu?"<<endl << endl;
+	cout<<"Jautajums Nr.2 \nKa pareizi definet masivu?"<<endl<<endl;
 }
 if(atbilde3 == "b" || atbilde3 == "B" && atbilde3.length()<2){
 	cout<<"";
 }else{
-	cout<<"Jautajums Nr.3 \nElementi masiva ir sakartoti?"<<endl << endl;
+	cout<<"Jautajums Nr.3 \nElementi masiva ir sakartoti?"<<endl<<endl;
+}
+if(atbilde4 == "d" || atbilde4 == "D" && atbilde4.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.4 \nKas tiks izvadits ekrana ja: \nA[10];\n A[0]=10; \ncout<<A[0]<<" ";"<<endl<<endl;
 }
 }
