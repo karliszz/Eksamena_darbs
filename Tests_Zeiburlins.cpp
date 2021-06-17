@@ -195,5 +195,10 @@ int main (){
 		cout<<"";
 	}else{
 		cout<<"Jautajums Nr.1 \nJa katram masiva elementam ir tikai viens indekss, kas nodrosina pieeju tam, tad masivu sauc par?" <<endl << endl;
+	}
+if(atbilde2 == "c" || atbilde2 == "C" && atbilde2.length()<2){
+	cout<<"";
+}else{
+	cout<<"Jautajums Nr.2 \nKa pareizi definet masivu?"<<endl << endl;
 }
 }
