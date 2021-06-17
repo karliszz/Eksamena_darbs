@@ -187,8 +187,13 @@ int main (){
     }
         cout<<"========================================================================================\n";
         //Rezultatu izvade   
-		cout <<"No 10 iespejamiem punktiem jus esat ieguvis "<<pareizs<<" punktus!"<<endl;
-        cout << "Uz siem jautajumiem jus atbildejat nepareizi:  "<<endl;
-        cout << endl;
+		cout<<"No 10 iespejamiem punktiem jus esat ieguvis "<<pareizs<<" punktus!"<<endl;
+        cout<<"Uz siem jautajumiem jus atbildejat nepareizi: "<<endl;
+        cout<<endl;
         
+        if(atbilde == "a" || atbilde == "A" && atbilde.length()<2){
+		cout<<"";
+	}else{
+		cout<<"Jautajums Nr.1 \nJa katram masiva elementam ir tikai viens indekss, kas nodrosina pieeju tam, tad masivu sauc par?" <<endl << endl;
+}
 }
